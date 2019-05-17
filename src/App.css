@@ -1,33 +1,268 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .App {
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  td{
+    width: 50%
+  }
+  td:first-child{
+  font-weight: bold;
+  }
+  .logo{
+    background-image: url('http://pluspng.com/img-png/to-do-list-png-business-tasks-check-mark-checklist-to-do-list-icon-512.png');
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 55px;
+    margin-left: 50px;
+    background-size: contain;
+  }
+  .navbar{
+    background-color: rgb(76, 175, 80);
+  }
+  .nav-item{
+    padding-right:20px;
+  }
+  .navbar-nav{
+    position: relative;
+      right: 42px;
+  }
+  .nav-link{
+    font-size: 20px
+  }
+  .dadOfNoteList{
+    align-items: center;
+  }
+  .Add1{
+    width:65px;
+    height:65px;
+    position: fixed;
+    left:1400px;
+    top:620px;
+    cursor: pointer;
+
+  }
+  .Add1:hover{
+        transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  .Add2{
+    width:65px;
+    height:65px;
+    position: fixed;
+    left:1400px;
+    top:620px;
+    cursor: pointer;
+
+  }
+  .Add2:hover{
+        transition: 0.5s;
+    transform: rotate(180deg);
+  }
+  .btnSpecial{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+  }
+  .btnSpecial:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+  }
+  .noforcus:focus{
+    outline: none;
+  }
+  td input{
+    text-align: center;
+  }
+  footer{
+    color: white;
+  }
+  .footer-bottom{
+    background: #3d6277;
+    padding: 2em;
+  }
+  .footer_row{
+    justify-content: center;
+  }
+  .aboutme{
+    background-color: white;
+  }
+  /* newcss */
+  .page{
+    background-color: #e9ecef;
+    width: 800px;
+    height: 650px;
+    margin-top:50px;
+    box-shadow: 9px 9px 6px -2px rgba(0,0,0,0.55);
+    margin-bottom: 50px;
+  }
+  .page2{
+    position: relative;
+    background-color: white;
+    height: 600px;
+    width: 740px;
+    top:20px;
+    display:flex;
+    left:15px;
+  }
+  .left{
+    width:20%;
+    top:0px;
+  }
+  .right{
+    width:80%;
+    text-align: center;
+  }
+
+  .about,.skill,.contact{
+    width:100px;
+    height:200px;
+    border-right: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    text-align: center;
+    padding-top:90px;
+    margin-top:1px;
+    cursor: pointer;
+  }
+  .about{
+    position: relative;
+    top:-1px;
+    background-color: orange;
+  }
+  .skill{
+    position: relative;
+    top:-1px;
+  }
+  .contact{
+    position: relative;
+    top:-1px;
+  }
+  .content{
+    background-color: red;
+    width:98px;
+    height:20px;
+    text-align: center;
+    position: relative;
+    top:-324px;
+    left:1px;
+  }
+  h5{
+    position: relative;
+    top:-2.5px;
+  }
+  .title{
+    font-weight: lighter;
+  }
+  .name{
+    margin-top: 70px;
+  }
+  .aboutcontent{
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    left:-45px;
+  }
+  .icons{
+    height:5px;
+    width:20px;
+    background-color: orange;
+    position: relative;
+    left: 256px;
+  }
+  .paraghrap{
+    margin-top: 50px;
+    position: relative;
+    left:-30px;
+  }
+  .tableinabout tr td:first-child{
+    float: right;
+    text-align: right
+  }
+  .tableinabout tr td:nth-child(2){
+    text-align: left;
+  }
+  .tableinabout tr td{
+    margin-right: 90px;
+    
+  }
+  .tableinabout{
+    position: relative;
+    top:40px;
+    left:90px;
+
+  }
+  .equipment{
+    position: absolute;
+    left:395px;
+    top:440px;
+  }
+  .circle{
+    width:10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: black;
+  }
+  .line{
+    width: 1px;
+    height: 100px;
+    background-color: gray;
+    position: relative;
+    left:4.8px;
+    top:2px;
+  }
+  .name{
+    position: relative;
+    left:-50px;
+  }
+  .space{
+    height:7px;
+    width: 100%;
+  }
+  .shape{
+    position: relative;
+    left: -71px;
+    top:-423px;
+  }
+  .shape1{
+    width:12px;
+    height:12px;
+    background-color: orange;
+    transform: rotateZ(45deg);
+  }
+  .shape2{
+    width: 10px;
+    height:18px;
+    background-color: orange;
+    position: relative;
+    left:-3px;
+    top:-15px;
+  }
